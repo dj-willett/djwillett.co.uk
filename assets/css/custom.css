@@ -1,0 +1,47 @@
+/* Dark Green: #007935 */
+/* Light Green: #76BD22 */
+/* BG Dark Green: #072307 */
+
+body,
+#wrapper > .bg,
+#wrapper.fade-in:before {
+  background-color: #072307;
+}
+
+#nav {
+  background: #007935;
+}
+
+ul.icons li {
+  padding-right: 1rem;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+#nav ul.icons li a {
+  border-bottom: 0;
+}
+#nav ul.icons li a:hover {
+  color: #fff !important;
+}
+
+#header {
+  margin-top: 4rem;
+  height: initial;
+}
+
+#header img {
+  max-width: 18.75rem;
+}
+
+#main > .post.featured ul,
+#main > .post.featured ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: -1rem;
+}
+
+
