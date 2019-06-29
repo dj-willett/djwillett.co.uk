@@ -33,6 +33,11 @@ ul.icons li {
   height: initial;
 }
 
+#header a {
+  border: 0;
+  pointer-events: auto;
+}
+
 #header img {
   max-width: 18.75rem;
 }
