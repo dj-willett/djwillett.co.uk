@@ -171,7 +171,7 @@
 				(function() {
 					var nav = document.getElementById('js-nav');
 					var list = nav.getElementsByTagName('li');
-					var current = window.location.pathname.split('/')[2];
+					var current = window.location.pathname.split('/')[1];
 					for (var i = 0; i < list.length; i++) {
 						var anchor = list[i].getElementsByTagName('a');
 						if ( (anchor[0].getAttribute('href') === current) || (anchor[0].getAttribute('href') === 'index.html' && current === '') ) {
